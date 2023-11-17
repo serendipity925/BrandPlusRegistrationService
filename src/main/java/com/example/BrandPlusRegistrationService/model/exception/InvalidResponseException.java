@@ -1,0 +1,7 @@
+package com.example.BrandPlusRegistrationService.model.exception;
+
+public class InvalidResponseException extends RuntimeException{
+    public InvalidResponseException(String message) {
+        super(message);
+    }
+}
